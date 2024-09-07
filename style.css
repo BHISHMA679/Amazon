@@ -138,15 +138,20 @@ span {
 }
 
 /* panel 2   Starts form here*/
-.panel2 {
+
+.mainpanel {
   display: flex;
   flex-direction: row;
-  background-color: rgb(28, 28, 28);
+  background-color: #222f3d;
   height: 37px;
   font-size: 12px;
   color: white;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: left;
+}
+.panel2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .all {
@@ -159,4 +164,236 @@ span {
 
 .hoverpanel:hover {
   color: orange;
+}
+
+#rightout {
+  justify-content: right;
+  margin-left: 950px;
+}
+
+/* Hero Section */
+.herosection {
+  display: flex;
+  background-image: url("bag.jpg");
+  height: 800px;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.heromsg {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: transparent;
+  margin-top: 60px;
+  font-size: 121px;
+  align-items: flex-end;
+  
+}
+
+.texty {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+/* Space between */
+.space{
+  height: 200px;
+}
+
+.spt{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 42px;
+  font-size: 65px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shop_section {
+  display: flex;
+  background-color: gray;
+  height: 1100px;
+  background-size: cover;
+  flex-wrap: wrap; /* Ensures content moves to next line when needed */
+  justify-content: space-evenly;
+  border-radius: 50px;
+}
+
+.box {
+  height: 400px;
+  width: 20%;
+  background-color:gray;
+  border: 2px solid white;
+  margin: 20px; /* Adjusted margin for better spacing */
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.text1{
+  font-size:x-large;
+  text-align: center;
+  justify-content: center;
+
+}
+.box1, .box6, .box7 ,.box2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.boximg1 ,.boximg3 ,.boximg4 ,.boximg5 ,.boximg8{
+  height: 300px;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: 21px auto 0; /* Centered image */
+  
+  /* Blurred border effect */
+  border-radius: 10px;
+}
+
+.boximg1{
+  background-image: url("b1.jpg");
+  background-size: cover;
+}
+
+.boximg3{
+  background-image: url("sg1.jpg");
+  background-size: cover;
+}
+.boximg4{
+  background-image: url("cap.jpg");
+  background-size:200%;
+}
+.boximg5{
+  background-image: url("w1.jpg");
+  background-size: cover;
+}
+.boximg8{
+  background-image: url("shoe.jpg");
+  background-size: cover;
+}
+/*4 SubBoxes Section*/
+
+.sb, .s {
+  height: 130px;
+  border: 2px solid black;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 11px;
+  border-radius: 50px;
+}
+
+.subbox21, .subbox22, .subbox23, .subbox24 , .subbox61 ,.subbox62 ,.subbox63 ,.subbox64 ,.subbox71 ,.subbox72 ,.subbox73 ,.subbox74{
+  margin-left: 15px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.subbox21 {
+  background-image: url("c1.jpg");
+  background-size: cover;
+}
+
+.subbox22 {
+  background-image: url("c2.jpg");
+  background-size: cover;
+
+}
+
+.subbox23 {
+  background-image: url("c3.jpg");
+  background-size: cover;
+
+}
+
+.subbox24 {
+  background-image: url("c4.jpg");
+  background-size: cover;
+
+}
+
+.subbox61 {
+  background-image: url("s1.jpg");
+  background-size: cover;
+
+}
+
+.subbox62 {
+  background-image: url("s2.jpg");
+  background-size: cover;
+
+}
+
+.subbox63 {
+  background-image: url("s3.jpg");
+  background-size: cover;
+
+}
+
+.subbox64 {
+  background-image: url("s4.jpg");
+  background-size: cover;
+
+}
+.subbox71 {
+  background-image: url("brac.jpg");
+  background-size: cover;
+
+}
+
+.subbox72 {
+  background-image: url("ear.jpg");
+  background-size: cover;
+
+}
+
+.subbox73 {
+  background-image: url("ring1.jpg");
+  background-size: cover;
+
+}
+
+.subbox74 {
+  background-image: url("nac.jpg");
+  background-size: cover;
+
+}
+
+
+/* Footer */
+.last{
+  background-color: #222f3d;
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 1550px;
+}
+
+ul, a{
+  color: aliceblue;
+  display: block;
+}
+
+#titile{
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 11px;
+}
+
+a{
+  margin-top: 7px;
 }
